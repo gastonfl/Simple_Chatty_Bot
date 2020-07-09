@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    import java.util.Scanner
+
+    fun main(args: Array<String>) {
+        val scanner = Scanner(System.`in`)
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4496
+status: Failed
+feedback:
+  message: "Failed test #1 of 6. Runtime error\n\nException in thread \"main\" java.util.NoSuchElementException\n\
+    \tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\tat java.base/java.util.Scanner.next(Scanner.java:1594)\n\
+    \tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\n\
+    \tat MainKt.main(main.kt:7)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native\
+    \ Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\
+    \tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\
+    \tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.jetbrains.kotlin.runner.AbstractRunner.run(runners.kt:61)\n\
+    \tat org.jetbrains.kotlin.runner.Main.run(Main.kt:109)\n\tat org.jetbrains.kotlin.runner.Main.main(Main.kt:119)\n"
+  time: Sun, 28 Jun 2020 20:42:39 UTC
+record: -1
